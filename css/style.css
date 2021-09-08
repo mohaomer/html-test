@@ -4,3 +4,7 @@
   height:500px
 
 }
+.header {
+  background-attachment: scroll;
+  font-size:30px;
+}
