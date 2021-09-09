@@ -1,10 +1,38 @@
-.contener{
-  background: blue;
-  width: 500px;
-  height:500px
+body{
+  font-family: segoe UI light;
+}
+.meals{
+  
+  width: 90%;
+  margin: auto;
 
 }
-.header {
-  background-attachment: scroll;
-  font-size:30px;
+.meal{
+
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.border {
+  width: 100px;
+  height: 3px;
+  background: rgb(177, 177, 132);
+  margin: auto;
+
+}
+p {
+  
+
+  padding: 0px 20px;
+
+}
+.clearfix{
+  clear: both;
+}
+.meal img {
+  border-radius: 50%;
+  border: solid 3px #bcbddc;
+  width: 90%;
 }
