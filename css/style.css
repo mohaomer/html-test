@@ -1,12 +1,18 @@
 body{
   font-family: segoe UI light;
+  background: linear-gradient(rgba(0, 128, 128, 0.8),rgba(0, 128, 128, 0.8)), url(../images/universal.jpg);
+  
 }
+  
 .meals{
   
   width: 90%;
   margin: auto;
-
+  
 }
+  
+
+
 .meal{
 
   width: 25%;
@@ -18,21 +24,25 @@ body{
 .border {
   width: 100px;
   height: 3px;
-  background: rgb(177, 177, 132);
+  background: yellow;
   margin: auto;
+  
 
 }
 p {
-  
+  color: rgba(255,255,255,100); 
 
   padding: 0px 20px;
 
+}
+h2 {
+  color: #FDFEFE ;
 }
 .clearfix{
   clear: both;
 }
 .meal img {
   border-radius: 50%;
-  border: solid 3px #bcbddc;
+
   width: 90%;
 }
